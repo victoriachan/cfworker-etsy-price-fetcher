@@ -1,0 +1,8 @@
+name = "etsy-price-fetcher"
+type = "javascript"
+account_id = "<your cloudflare account id>"
+workers_dev = true
+
+[env.production]
+route = "yourdomain.com/section/*"
+zone_id = "<cloudflare zone id>"

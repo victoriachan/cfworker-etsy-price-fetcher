@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "etsy-price-fetcher",
+  "version": "1.0.0",
+  "description": "A Cloudflare Workers script for populating anchor titles with Etsy product data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Victoria Chan <victoria.chan@torchbox.com>",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {},
+  "license": "ISC"
+}
