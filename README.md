@@ -8,13 +8,13 @@ Example anchor link: `<a class="etsy external" href="https://www.etsy.com/uk/lis
 
 If the product is not found on Etsy API, then it is assumed that the product link is outdated, and will be removed from the page.
 
-##To use:
+## To use:
 
 - Define `ETSY_PRICES` Cloudflare Workers KV, and add bindings to the CF Worker.
 - Register with [Etsy API](https://www.etsy.com/developers/register) and set the API key as `ETSYAPIKEY` env var for the CF Worker.
 - Enable the Worker script in your Cloudflare zone.
 
 
-##To develop:
+## To develop:
 
 Run `npm run format` to format code with prettier
