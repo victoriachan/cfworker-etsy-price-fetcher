@@ -1,6 +1,8 @@
 # Etsy Price Fetcher Cloudflare Workers script
 
-A [Cloudflare Workers](https://developers.cloudflare.com/workers/) script that finds all the `<a>` tags on the page with `class='etsy'` that links to an Etsy product, and adds `title` attribute to them with the product's Etsy price and quantity (fetched from Etsy API).
+A [Cloudflare Workers](https://developers.cloudflare.com/workers/) script that augments Etsy product links on a webpage by adding price and quantity information to the link's title attribute.
+
+The script finds all the `<a>` tags on the page with `class='etsy'` that links to an Etsy product, and adds `title` attribute to them with the product's Etsy price and quantity (fetched from Etsy API).
 
 Example anchor link: `<a class="etsy external" href="https://www.etsy.com/uk/listing/826425463/puteh-original-drypoint-etching-print?ref=shop_home_active_1"></a>`
 
