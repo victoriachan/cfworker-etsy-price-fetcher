@@ -17,4 +17,5 @@ If the product is not found on Etsy API, then it is assumed that the product lin
 
 ## To develop:
 
-Run `npm run format` to format code with prettier
+- Run `npm run format` to format code with prettier
+- Deploy using [Wrangler cli](https://developers.cloudflare.com/workers/cli-wrangler) or Cloudflare Workers dashboard or [Github Action](https://developers.cloudflare.com/workers/platform/deploy-button)
